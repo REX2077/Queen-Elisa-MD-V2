@@ -31,13 +31,13 @@ global.INBOX_BLOCK = false
 //👇 Auto react 
 global.AUTO_REACT = true
 //👇 Bad word Auto delete ( you must add bad words )
-global.ANTI_BADWORD = false
+global.ANTI_BADWORD = true
 //👇 Kick And Auto Delete Group link Senders
 global.ANTI_G_LINK = false
 //👇 212 Number block
 global.NUMBER_212_BLOCK = false
 //👇 Send Welcome ( true or false )
-global.SEND_WELCOME = process.env.SEND_WELCOME || true
+global.SEND_WELCOME = process.env.SEND_WELCOME || false
 //👇 Send block command message (true or false )
 global.BLOCK_CMD_MESSAGE_SEND = false
 //👇 Send Auto reply , sticker , voice Use true and costemize your own 
@@ -47,24 +47,24 @@ global.BOT_OFFLINE = false
 //👇 Only PreFix [ true / false ]
 global.ONLY_PREFIX = false
 //👇 This uplaod youtube videos without limit ⚠️ if you use this you must have paid sever
-global.UPLOAD_MAX = false
+global.UPLOAD_MAX = true
 /*
        ✨ BOT INFO SETTINGS ✨
 */
 // You Bots Owner Number 
-global.owner = ['94752409059'] 
+global.owner = ['94784604369'] 
 //👇 Your Caption ( Image Video )
 global.cap = '© 𝙶𝙴𝙽𝙴𝚁𝙰𝚃𝙴𝙳 𝙱𝚈 𝚀𝚄𝙴𝙴𝙽 𝙴𝙻𝙸𝚂𝙰 ²⁰²³'
 //👇 Your Bot Name
 global.botnma =  '𝐐𝐔𝚵𝚵𝚴 𝚵𝐋𝚰𝐒𝚫 𝚳𝐃 3 𝛁' 
 //👇 Your name
-global.ownernma =  '𝑴𝒓 Anupa' 
+global.ownernma =  '✘⏤͟͟͞͞ 𝙍 𝙀 𝙓 𝙂 𝘼 𝙈 𝙄 𝙉 𝙂😌' 
 //👇 Sticker Author Name
-global.packname =  '𝙼𝚁 Anupa 𝙾𝙵𝙲' 
+global.packname =  '✘⏤͟͟͞͞ 𝙍 𝙀 𝙓 𝙂 𝘼 𝙈 𝙄 𝙉 𝙂😌' 
 //👇 Inbox Block Massage 
 global.INBOX_BLOCK_MSG = 'BLOCK !!!'
 //👇 Owner React Imoji
-global.OWNER_REACT =  '💻'
+global.OWNER_REACT =  '👻'
 //👇 Song Download Massage 
 global.SONG_DOWN = '```⬇️ Downloading Your Song...```' 
 //👇 Song Uplode massage 
